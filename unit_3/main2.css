@@ -6,13 +6,13 @@ body {
 }
 #slogan {
 	font-style: italic;
-	font-size: 36px;
+	font-size: 30px;
 }
 ul {
 	padding:0;
 	margin:0;
 	list-style-type:none;
-	font-style: underline;
+	font-weight: bold
 }
 h1 {
 	font-size:48px;
