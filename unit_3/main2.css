@@ -1,4 +1,9 @@
 body {
 	background-color: #C9B4AA;
+	text-align: center;
+	color: #2F4F4F;
 }
-h1, p 
+#slogan {
+	font-style: italic;
+}
+
