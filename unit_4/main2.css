@@ -7,6 +7,10 @@ body {
 	font-family: 'Simonetta', serif, sans-serif;
 	font-weight: 400;
 }
+h3 {font-family: 'Simonetta', serif, sans-serif;
+	font-weight: 400;
+}
+
 #slogan {
 	font-style: italic;
 	font-size: 26px;
