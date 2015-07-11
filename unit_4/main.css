@@ -34,12 +34,10 @@ h1 {
 	padding: 20px;
 	background-color: #23FF99; 
 }
-.hello {
+.address {
 	position: absolute;
 	margin-left:200px;
 	padding: 5px;
 	background-color: gray;
 }
-.address{
-	background-color: white;
-}
+
