@@ -27,4 +27,10 @@ h1 {
 	font-weight: 900;
 
 }
+.top {
+	border-top: 2px;
+	border-bottom: 2px;
+	border-style: solid;
+	border-color: #416FA1;
+}
 
