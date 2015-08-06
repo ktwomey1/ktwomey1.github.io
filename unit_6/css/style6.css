@@ -1,11 +1,11 @@
-@import url(http://fonts.googleapis.com/css?family=Josefin+Sans:300,700);
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,700,400italic);
 
 html {
-	background: blue;
+	background: #F0F8FF;
 }
 
 h1 {
-	font-family:'Josefin Sans', sans-serif;
+	font-family: 'Playfair Display', serif, sans-serif;
 	font-weight:700;
 	font-size:65px;
 	text-align:right;
@@ -16,41 +16,30 @@ h1 {
 	margin: 0 0 0 0;
 	padding: 10px 10px 10px 10px;
 	position: right;
-	background: yellow;
 	height: 75px;
 	width: 100%;
-	background: yellow;
+	background: #DCDCDC;
 	display: block;
 	border-bottom: solid black 4px;
 
 }
-#nav {
-	width: 300px;
-	background: yellow;
-	float: left;
-}
-.navrow {
-	float:left;
-	margin: 0 10px 0 10px;
-	color: black;
-}
-.navrow:hover {
-	background: black;
-	color: white;
-}
+
 .wrapper {
 	width: 1200px;
 	margin: auto;
 }
 
 p {
-	font-family: 'Josefin Sans', sans-serif;
-	font-weight:300;
+	font-family: 'Playfair Display', serif, sans-serif;
+	font-weight:400;
+	font-style: italic;
 	font-size:20px;
-	line-height: 21px;
+	line-height: 23px;
+	width: 1100px;
+	margin: 0 50px 0 50px;
 	}
 h2 {
-	font-family:'Josefin Sans', sans-serif;
+	font-family: 'Playfair Display', serif, sans-serif;
 	font-weight:700;
 	font-size:49px;
 }
@@ -77,10 +66,22 @@ section {
 }
 nav {
 	font-size: 32px;
-	font-family:'Josefin Sans', sans-serif;
-	font-weight:300;
+	font-family: 'Playfair Display', serif, sans-serif;
+	font-weight:400;
 	color: black;
 
+}
+#nav {
+	width: 300px;
+	float: left;
+}
+.navrow {
+	float:left;
+	margin: 10px;
+	color: black;
+}
+.navrow:hover {
+	background: white;
 }
 
 .footerpad {
@@ -90,11 +91,12 @@ nav {
 footer {
 	float: left;
 	text-align: center;
-	background: gray;
+	background: #DCDCDC;
 	height: 100px;
 	width: 100%;
 	position: fixed;
 	bottom: 0px;
+	border-top:solid black 4px;
 	}
 
 .contact1 {
@@ -109,8 +111,8 @@ footer {
 a {
 	color:black;
 	text-decoration: none;
-	font-family: 'Josefin Sans', sans-serif;
-	font-weight:300;
+	font-family: 'Playfair Display', serif, sans-serif;
+	font-weight:400;
 	}
 
 .photos img {
@@ -125,20 +127,18 @@ a {
 }
 .contact1 {
 	float:left;
-	color: white;
+	color: black;
 	text-decoration: none;
-	font-size: 20px;
 	padding: 20px;
 	margin: 20px;
-	font-family: 'Josefin Sans', sans-serif;
-	font-weight:300;
+	font-family: 'Playfair Display', serif, sans-serif;
+	font-weight:400;
 	font-size:24px;
 }
 .blogtitle {
 	margin:75px 0 75px 0;
 }
 .blogtitle h2 {
-	background: white;
 	text-align:center;
 }
 
