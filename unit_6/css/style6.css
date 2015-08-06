@@ -1,0 +1,148 @@
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans:300,700);
+
+html {
+	background: blue;
+}
+
+h1 {
+	font-family:'Josefin Sans', sans-serif;
+	font-weight:700;
+	font-size:65px;
+	text-align:right;
+	vertical-align: center;
+}
+#header {
+	float:right;
+	margin: 0 0 0 0;
+	padding: 10px 10px 10px 10px;
+	position: right;
+	background: yellow;
+	height: 75px;
+	width: 100%;
+	background: yellow;
+	display: block;
+	border-bottom: solid black 4px;
+
+}
+#nav {
+	width: 300px;
+	background: yellow;
+	float: left;
+}
+.navrow {
+	float:left;
+	margin: 0 10px 0 10px;
+	color: black;
+}
+.navrow:hover {
+	background: black;
+	color: white;
+}
+.wrapper {
+	width: 1200px;
+	margin: auto;
+}
+
+p {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight:300;
+	font-size:20px;
+	line-height: 21px;
+	}
+h2 {
+	font-family:'Josefin Sans', sans-serif;
+	font-weight:700;
+	font-size:49px;
+}
+section {
+	width: 900px;
+	margin: 0 auto;
+}
+
+.right {
+	width: 900px;
+	position: center;
+	}
+.photos {
+	margin: auto;
+}	
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+nav {
+	font-size: 32px;
+	font-family:'Josefin Sans', sans-serif;
+	font-weight:300;
+	color: black;
+
+}
+
+.footerpad {
+	height:150px;
+}
+
+footer {
+	float: left;
+	text-align: center;
+	background: gray;
+	height: 100px;
+	width: 100%;
+	position: fixed;
+	bottom: 0px;
+	}
+
+.contact1 {
+	padding: 15px;
+	margin: 15px;
+}
+.contact1:hover {
+	background:white;
+	color: black;
+}
+
+a {
+	color:black;
+	text-decoration: none;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight:300;
+	}
+
+.photos img {
+	width: 350px;
+}
+.reg1 {
+	float:left;
+	margin:22px;
+}
+.bottom3 {
+	margin: 22px 22px 150px 22px;
+}
+.contact1 {
+	float:left;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 20px;
+	margin: 20px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight:300;
+	font-size:24px;
+}
+.blogtitle {
+	margin:75px 0 75px 0;
+}
+.blogtitle h2 {
+	background: white;
+	text-align:center;
+}
+
+.blogpic img {
+	width: 1000px;
+	margin: 0 90px 20px 90px;
+}
