@@ -70,13 +70,13 @@ h2 {
 
 }
 img {
-	padding-top: 1em;
 	max-width:100%;
 	}
 
 .images {
+	margin: 0, auto;
 	display:block;
-	float:none;
+
 }
 
 footer {
