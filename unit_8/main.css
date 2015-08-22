@@ -70,6 +70,25 @@ h2 {
 
 }
 .images {
-	padding-left: 33%;
+	padding-left: 34%;
 	padding-top: 1em;
+}
+footer {
+	float:left;
+	left:0;
+	bottom:0;
+	height: 7em;
+	width: 100%;
+	background-color: rgba(255,255,255,.7);
+	text-align:center;
+}
+.contact1 {
+	font-family: "Doris", sans-serif;
+	font-size:2em;
+	color: black;
+	text-decoration:none;
+	margin:2em 1em 1em 1em;
+}
+.contact1:hover{
+	text-decoration: underline;
 }
