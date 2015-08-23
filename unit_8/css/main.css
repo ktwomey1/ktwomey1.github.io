@@ -4,6 +4,7 @@ body {
 	background-image: url("../images/flowers-background.jpg");
 	background-attachment: fixed;
 	background-position: center;
+	background-size: cover;
 
 }
 header h1 {
@@ -82,10 +83,13 @@ footer {
 	float:left;
 	left:0;
 	bottom:0;
-	height: 7em;
+	height: auto;
 	width: 100%;
 	background-color: rgba(255,255,255,.7);
 	text-align:center;
+}
+#address p {
+	margin:0;
 }
 .contact1 {
 	font-family: "Doris", sans-serif;
@@ -96,4 +100,26 @@ footer {
 }
 .contact1:hover{
 	text-decoration: underline;
+}
+@media only screen and (max-device-width: 800px){
+}
+footer {
+	font-size:1em;
+	float:none;
+}
+.contact1 {
+	display:block;
+	margin:1em;
+}	
+
+@media only screen and (max-width: 480px){
+p {
+	font-size:15px;
+}
+footer {
+	float:none;
+}
+.contact1 {
+	display:block;
+	margin:1em;
 }
