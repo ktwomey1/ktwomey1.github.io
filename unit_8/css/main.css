@@ -102,16 +102,18 @@ footer {
 	text-decoration: underline;
 }
 @media only screen and (max-device-width: 800px){
-}
-footer {
+
+}	
+
+@media only screen and (max-width: 600px) {
+	footer {
 	font-size:1em;
 	float:none;
 }
 .contact1 {
 	display:block;
 	margin:1em;
-}	
-
+}
 @media only screen and (max-width: 480px){
 p {
 	font-size:15px;
