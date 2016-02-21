@@ -1,24 +1,33 @@
 @import url(http://fonts.googleapis.com/css?family=Dosis:300,500);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display+SC:900);
 
 body {
-	background-image: url("../images/flowers-background.jpg");
+	background-image: url("../images/lights-night-street-party.jpg");
 	background-attachment: fixed;
 	background-position: center;
 	background-size: cover;
 
 }
+/*
 header h1 {
 	font-family: 'Dosis', sans-serif;
 	font-size: 64px;
 	font-weight: 500;
 	text-align: center;
+}*/
+
+html, body{margin:0px; padding:0px;}
+
+header {
+	margin-top: 4em;
 }
 
 h1 {
-	font-family: 'Dosis', sans-serif;
 	font-size: 60px;
-	font-weight: 500;
+	font-weight: 900;
 	text-align: center;
+	color: white;
+	font-family: 'Playfair Display SC', serif;
 }
 nav a {
 	display: block;
@@ -46,18 +55,32 @@ nav {
 	width: 100%;
 	}
 
+.wrap2 {
+	padding: 20px 0 20px 0;
+	background-color: rgba(0, 0, 0, .7);
+	width: 100%;
+	margin: none;
+}	
+
 #about {
 	margin: 30em auto 10em auto;
 	text-align: center;
 	position: auto;
+	line-height: 1.5em;
+	font-size: 20px;
 }	
 
 p {
 	font-family: 'Dosis', sans-serif;
-	font-size: 20px;
+}
+
+/*
+#aboutustext {
 	padding: 1em 25% 1em 25%;
 	line-height: 1.5em;
-}
+	font-size: 20px;
+}*/ 
+
 h2 {
 	text-align: center;
 	font-family: "Doris", sans-serif;
@@ -87,17 +110,25 @@ footer {
 	width: 100%;
 	background-color: rgba(255,255,255,.7);
 	text-align:center;
+	margin: none;
 }
-#address p {
-	margin:0;
+#address {
+	margin-top: 1em;
+	margin-bottom: 1em;
 }
 .contact1 {
 	font-family: "Doris", sans-serif;
-	font-size:2em;
+	font-size:1.25em;
 	color: black;
 	text-decoration:none;
-	margin:2em 1em 1em 1em;
+	margin-right: 1em;
+	margin-left: 1em;
 }
+
+#footerpad {
+	padding-top: .5em;
+}
+
 .contact1:hover{
 	text-decoration: underline;
 }
